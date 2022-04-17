@@ -1,0 +1,7 @@
+version: '3.3'
+
+services:
+  nginx-proxy:
+    build: ./mind_work
+    image: nginx-mind_work
+    network_mode: host
